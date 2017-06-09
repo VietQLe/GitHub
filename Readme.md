@@ -6,9 +6,11 @@
 
 3. Initialize the project as a Git repo by running `git init`. Will only need to do this the first time you set up project.
 
-4. To connect your project to GitHub, run `git remote add origin URL`. The URL is what you get at the end of first step.
+4. To connect your project to GitHub, run `git remote add origin URL`. The URL is what you get at the end of first step. Also only need to do one time.
 
 5. Add the files to the staging area with `git add .`
     - if you want to see what is in ur staging area that you'll be committing, you can run `git status`
 
 6. Commit the files in your staging area with `git commit -m "commit message"`. Your *commit message* is basically what changes you are making.
+
+7. Then you'll want to push your changes to Github with `git push -u origin master`.
